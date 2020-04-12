@@ -12,7 +12,7 @@ var Comment = require("./models/comment");
 var seedDB = require("./seeds");
 var campgroundRoutes = require("./routes/campgrounds");
 var commentRoutes = require("./routes/comments");
-var authRoutes = require("./routes/index");
+var authRoutes = require("./routes/Authorize");
 var mongoose = require("mongoose");
 
 mongoose.connect("mongodb://localhost/yelp_camp_v10",{
